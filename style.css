@@ -61,6 +61,11 @@ main section ol li {
 }
 
 main section figure img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+main section figure img {
     border: 3px solid #ccc;
     max-width: 100%;
     height: auto;
@@ -68,6 +73,7 @@ main section figure img {
 
 main section figure figcaption {
     text-align: center;
+    font-style: italic;
 }
 
 .video-container {
@@ -99,12 +105,6 @@ main section th {
     background-color: #d1b9b9;
 }
 
-/*--- Rodapé ---*/
-footer {
-    min-height: 100px;
-    border-top: solid 1px #cdcdcd;
-}
-
 /*--- Links ---*/
 main aside {
     border-left: solid 1px #cdcdcd;
@@ -124,9 +124,12 @@ nav a {
     color: #000000;
 }
 
-/*----- imagem -----*/
+/*----- Rodapé-----*/
 footer {
     text-align: center;
     font-family: console;
     line-height: 0.5;
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+
 }
