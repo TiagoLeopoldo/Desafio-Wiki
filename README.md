@@ -13,7 +13,6 @@ O projeto possui a seguinte estrutura:
 ## Tecnologias Utilizadas
 - **HTML5**: Para a estruturação do conteúdo.
 - **CSS3**: Para a estilização básica da página.
-- **ARIA Roles**: Para melhorias na acessibilidade.
 
 ## Melhorias de Acessibilidade
 Foram implementadas melhorias de acessibilidade utilizando ARIA roles e atributos, tais como:
@@ -22,7 +21,6 @@ Foram implementadas melhorias de acessibilidade utilizando ARIA roles e atributo
 - **`role="main"`**: Utilizado na área principal de conteúdo.
 - **`role="complementary"`**: Utilizado em áreas de conteúdo complementar ou secundário.
 - **`role="contentinfo"`**: Utilizado nas informações de rodapé.
-- **`scope="col"`**: Adicionado nos cabeçalhos das tabelas para melhorar a identificação dos cabeçalhos.
 
 ## Conteúdo das Páginas
 
