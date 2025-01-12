@@ -45,7 +45,7 @@ Foram implementadas melhorias de acessibilidade utilizando ARIA roles e atributo
 - Estrutura similar às outras páginas, com informações específicas sobre o bolinho de bacalhau, incluindo história, características e receita.
 
 ## Estrutura do Código
-O código HTML das páginas segue uma estrutura consistente para facilitar a navegação e a leitura do conteúdo. Os principais elementos incluem cabeçalho (header), navegação (nav), área principal (main), seções (section), conteúdos complementares (aside) e rodapé (footer). Os ARIA roles e atributos foram utilizados para melhorar a acessibilidade do site.
+O código HTML das páginas segue uma estrutura consistente para facilitar a navegação e a leitura do conteúdo. Os principais elementos incluem cabeçalho (header), navegação (nav), área principal (main), seções (section), conteúdos complementares (aside) e rodapé (footer).
 
 ### Contato
 Para mais informações ou dúvidas, entre em contato:
