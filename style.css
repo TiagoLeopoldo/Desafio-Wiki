@@ -64,13 +64,11 @@ main section figure img {
     margin: 0 auto;
     width: 100%;
 }
-
 main section figure img {
     border: 3px solid #ccc;
     max-width: 100%;
     height: auto;
 }
-
 main section figure figcaption {
     text-align: center;
     font-style: italic;
@@ -82,8 +80,7 @@ main section figure figcaption {
     align-items: center;
     margin-bottom: 30px;
 }
-
-.video-container inframe {
+.video-container iframe {
     max-width: 100%;
     max-height: 100%;
 }
@@ -91,16 +88,14 @@ main section figure figcaption {
 main section table {
     border-collapse: collapse;
     font-size: 16px;
-    margin-left: 250px;
-    width: 50%;
+    width: 100%;
+    margin: 0 auto;
 }
-
 main section th, main section td {
     border: 2px solid #000000;
     text-align: center;
     padding: 4px;
 }
-
 main section th {
     background-color: #d1b9b9;
 }
