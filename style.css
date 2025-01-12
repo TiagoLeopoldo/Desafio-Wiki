@@ -1,0 +1,132 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*--- Conteúdo Cabeçalho ---*/
+header figure figcaption {
+    margin: -20px auto auto 46px;
+    font-weight: bold;
+
+}
+
+header nav {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+/*--- Conteúdo Principal---*/
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "nav section aside";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main section h1, h2 {
+    font-family: Arial;
+    margin-bottom: 0;
+    padding: 0;
+}
+main section h1 {
+    font-size: 32px;
+}
+main section h2 {
+    font-size: 24px;
+}
+
+main section hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-top: 1px;
+    color: #ccc;
+}
+
+main section p {
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+main section ul li,
+main section ol li {
+    line-height: 1.6;
+}
+
+main section figure img {
+    border: 3px solid #ccc;
+    max-width: 100%;
+    height: auto;
+}
+
+main section figure figcaption {
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.video-container inframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main section table {
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-left: 250px;
+    width: 50%;
+}
+
+main section th, main section td {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 4px;
+}
+
+main section th {
+    background-color: #d1b9b9;
+}
+
+/*--- Rodapé ---*/
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+/*--- Links ---*/
+main aside {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+main nav {
+    border-right: solid 1px #cdcdcd;
+}
+nav ul { 
+    list-style: none; padding-left: 5px;
+}
+nav a { 
+    color:blue; text-decoration: none;
+}
+.PI {
+    color: #000000;
+}
+
+/*----- imagem -----*/
+footer {
+    text-align: center;
+    font-family: console;
+    line-height: 0.5;
+}
